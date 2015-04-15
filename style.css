@@ -204,13 +204,13 @@ div span{
 
     #concept{
       background: url(img/1_m.jpg) no-repeat center center fixed;
-      background-size: auto 100%;
+      background-size: auto;
       min-height: 700px;
     }
 
     #process{
       background: url(img/2_m.jpg) no-repeat center center fixed;
-      background-size: auto 100%;
+      background-size: auto;
       min-height: 700px;
     }
 
