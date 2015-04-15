@@ -204,8 +204,7 @@ div.main .mobile-img {
 
     div.main .mobile-img {
       display: block;
-      width: auto;
-      height: 600px;
+      min-height: 600px;
       overflow: hidden;
       position: absolute;
     }
