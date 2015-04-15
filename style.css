@@ -202,32 +202,32 @@ div span{
     }
 
     #concept{
-      background: url(img/1_m.jpg) no-repeat center center fixed;
+      background: url(img/1.jpg) no-repeat center center fixed;
       min-height: 700px;
     }
 
     #process{
-      background: url(img/2_m.jpg) no-repeat center center fixed;
+      background: url(img/2.jpg) no-repeat center center fixed;
       min-height: 700px;
     }
 
     #process_2{
-      background: url(img/3_m.jpg) no-repeat center center fixed;
+      background: url(img/3.jpg) no-repeat center center fixed;
       min-height: 700px;
     }
 
     #design{
-      background: url(img/4_m.jpg) no-repeat left center fixed;
+      background: url(img/4.jpg) no-repeat left center fixed;
       min-height: 700px;
     }
 
     #design_2{
-      background: url(img/5_m.jpg) no-repeat right center fixed;
+      background: url(img/5.jpg) no-repeat right center fixed;
       min-height: 700px;
     }
 
     #design_3{
-      background: url(img/6_m.jpg) no-repeat right center fixed;
+      background: url(img/6.jpg) no-repeat right center fixed;
       min-height: 700px;
     }
 
