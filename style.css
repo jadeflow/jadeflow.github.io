@@ -196,37 +196,37 @@ div span{
     #concept{
       background: url(img/1_m.jpg) no-repeat center center fixed;
       background-size: auto 100%;
-      min-height: 1500px;
+      height: auto;
     }
 
     #process{
       background: url(img/2_m.jpg) no-repeat center center fixed;
       background-size: auto 100%;
-      min-height: 1500px;
+      height: auto;
     }
 
     #process_2{
       background: url(img/3_m.jpg) no-repeat center center fixed;
       background-size: auto 100%;
-      min-height: 1500px;
+      height: auto;
     }
 
     #design{
       background: url(img/4_m.jpg) no-repeat left center fixed;
       background-size: auto 100%;
-      min-height: 1500px;
+      height: auto;
     }
 
     #design_2{
       background: url(img/5_m.jpg) no-repeat right center fixed;
       background-size: auto 100%;
-      min-height: 1500px;
+      height: auto;
     }
 
     #design_3{
       background: url(img/6_m.jpg) no-repeat right center fixed;
       background-size: auto 100%;
-      min-height: 1500px;
+      height: auto;
     }
 
     #concept span, #process span, #process_2 span, #design span, #design_2 span, #design_3 span{
