@@ -205,29 +205,29 @@ div.main .mobile-img {
     div.main .mobile-img {
       display: block;
       width: auto;
-      height: 600px;
+      height: 100%;
       overflow: hidden;
       position: absolute;
     }
 
     #concept img{
-      left: -300px;
+      left: -10%;
     }
 
     #process_2 img{
-      right: -300px;
+      right: -40%;
     }
 
     #design img{
-      left: -300px;
+      left: -30%;
     }
 
     #design_2 img{
-      right: -200px;
+      right: -30%;
     }
 
     #design_3 img{
-      right: -200px;
+      right: -10%;
     }
 
     #concept,
