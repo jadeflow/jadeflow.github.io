@@ -134,7 +134,7 @@ div span{
 }
 
 .custom-wrapper.open {
-    height: 10.5em;
+    height: 12em;
 }
 
 .custom-toggle {
@@ -183,6 +183,10 @@ div span{
     transform: rotate(-45deg);
 }
 
+div.main .mobile-img {
+    display: none;
+}
+
 @media (max-width: 47.999em) {
 
     .custom-menu-3 {
@@ -196,51 +200,55 @@ div span{
     div.main{
       padding: 0;
       margin: 0 auto;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
     }
 
-    #concept{
-      background: url(img/1_m.jpg) no-repeat center center fixed;
-      background-size: auto 100%;
-      min-height: 700px;
+    div.main .mobile-img {
+      display: block;
+      width: auto;
+      height: 600px;
+      overflow: hidden;
+      position: absolute;
     }
 
-    #process{
-      background: url(img/2_m.jpg) no-repeat center center fixed;
-      background-size: auto 100%;
-      min-height: 700px;
+    #concept img{
+      right: -500px;
     }
 
-    #process_2{
-      background: url(img/3_m.jpg) no-repeat center center fixed;
-      background-size: auto 100%;
-      min-height: 700px;
+    #process_2 img{
+      right: -300px;
     }
 
-    #design{
-      background: url(img/4_m.jpg) no-repeat left center fixed;
-      background-size: auto 100%;
-      min-height: 700px;
+    #design img{
+      left: -300px;
     }
 
-    #design_2{
-      background: url(img/5_m.jpg) no-repeat right center fixed;
-      background-size: auto 100%;
-      min-height: 700px;
+    #design_2 img{
+      right: -200px;
     }
 
+    #design_3 img{
+      right: -200px;
+    }
+
+    #concept,
+    #process,
+    #process_2,
+    #design,
+    #design_2,
     #design_3{
-      background: url(img/6_m.jpg) no-repeat right center fixed;
-      background-size: auto 100%;
-      min-height: 700px;
+      background-image: none;
+      position: relative;
+      min-height: 600px;
+      max-height: 100%;
+      padding: 0;
+      max-width: 100%;
+      overflow: hidden;
     }
 
     #concept span, #process span, #process_2 span, #design span, #design_2 span, #design_3 span{
-      padding: 100% 10% 10% 10%;
+      padding: 30% 10%;
       font-size: 20px;
+      position: absolute;
     }
 
     h2 .intro-title{
