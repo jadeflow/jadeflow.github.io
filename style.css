@@ -193,6 +193,15 @@ div span{
         display: block;
     }
 
+    div.main{
+      padding: 0;
+      margin: 0 auto;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+    }
+
     #concept{
       background: url(img/1_m.jpg) no-repeat center center fixed;
       background-size: auto 100%;
@@ -207,25 +216,25 @@ div span{
 
     #process_2{
       background: url(img/3_m.jpg) no-repeat center center fixed;
-      background-size: auto 100%;
+      background-size: auto;
       min-height: 700px;
     }
 
     #design{
       background: url(img/4_m.jpg) no-repeat left center fixed;
-      background-size: auto 100%;
+      background-size: auto;
       min-height: 700px;
     }
 
     #design_2{
       background: url(img/5_m.jpg) no-repeat right center fixed;
-      background-size: auto 100%;
+      background-size: auto;
       min-height: 700px;
     }
 
     #design_3{
       background: url(img/6_m.jpg) no-repeat right center fixed;
-      background-size: auto 100%;
+      background-size: auto;
       min-height: 700px;
     }
 
