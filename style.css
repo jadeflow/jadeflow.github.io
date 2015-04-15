@@ -195,38 +195,38 @@ div span{
 
     #concept{
       background: url(img/1_m.jpg) no-repeat center center fixed;
-      background-size: auto 100%;
-      height: auto;
+      background-size: 100% auto;
+      min-height: 700px;
     }
 
     #process{
       background: url(img/2_m.jpg) no-repeat center center fixed;
-      background-size: auto 100%;
-      height: auto;
+      background-size: 100% auto;
+      min-height: 700px;
     }
 
     #process_2{
       background: url(img/3_m.jpg) no-repeat center center fixed;
-      background-size: auto 100%;
-      height: auto;
+      background-size: 100% auto;
+      min-height: 700px;
     }
 
     #design{
       background: url(img/4_m.jpg) no-repeat left center fixed;
-      background-size: auto 100%;
-      height: auto;
+      background-size: 100% auto;
+      min-height: 700px;
     }
 
     #design_2{
       background: url(img/5_m.jpg) no-repeat right center fixed;
-      background-size: auto 100%;
-      height: auto;
+      background-size: 100% auto;
+      min-height: 700px;
     }
 
     #design_3{
       background: url(img/6_m.jpg) no-repeat right center fixed;
-      background-size: auto 100%;
-      height: auto;
+      background-size: 100% auto;
+      min-height: 700px;
     }
 
     #concept span, #process span, #process_2 span, #design span, #design_2 span, #design_3 span{
