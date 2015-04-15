@@ -204,37 +204,37 @@ div span{
 
     #concept{
       background: url(img/1_m.jpg) no-repeat center center fixed;
-      background-size: auto 100%;
+      background-size: auto 800px;
       min-height: 800px;
     }
 
     #process{
       background: url(img/2_m.jpg) no-repeat center center fixed;
-      background-size: auto 100%;
+      background-size: auto 800px;
       min-height: 800px;
     }
 
     #process_2{
       background: url(img/3_m.jpg) no-repeat center center fixed;
-      background-size: auto 100%;
+      background-size: auto 800px;
       min-height: 800px;
     }
 
     #design{
       background: url(img/4_m.jpg) no-repeat left center fixed;
-      background-size: auto 100%;
+      background-size: auto 800px;
       min-height: 800px;
     }
 
     #design_2{
       background: url(img/5_m.jpg) no-repeat right center fixed;
-      background-size: auto 100%;
+      background-size: auto 800px;
       min-height: 800px;
     }
 
     #design_3{
       background: url(img/6_m.jpg) no-repeat right center fixed;
-      background-size: auto 100%;
+      background-size: auto 800px;
       min-height: 800px;
     }
 
