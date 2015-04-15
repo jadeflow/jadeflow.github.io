@@ -31,38 +31,38 @@ div span{
 }
 
 #concept{
-  background: url(img/1.jpg) no-repeat center center fixed;
+  background: #AFD09B url(img/1.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 1200px;
   position: relative;
 }
 
 #process{
-  background: url(img/2.jpg) no-repeat center center fixed;
+  background: #EEDDD5 url(img/2.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 1200px;
 }
 
 #process_2{
-  background: url(img/3.jpg) no-repeat center center fixed;
+  background: #ECCC8E url(img/3.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 1200px;
 }
 
 #design{
-  background: url(img/4.jpg) no-repeat center center fixed;
+  background: #181510 url(img/4.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 1200px;
 }
 
 #design_2{
-  background: url(img/5.jpg) no-repeat center center fixed;
+  background: #181510 url(img/5.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 1200px;
 }
 
 #design_3{
-  background: url(img/6.jpg) no-repeat center center fixed;
+  background: #6E523C url(img/6.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 1200px;
 }
