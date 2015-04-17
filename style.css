@@ -8,6 +8,8 @@ div.main{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -ms-background-size: cover;
+  -khtml-background-size: cover;
   background-size: cover;
 }
 
