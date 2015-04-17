@@ -16,7 +16,7 @@
       #design_3 {
         background-image: none;
         position: relative;
-        min-height: 800px;
+        min-height: 750px;
         max-height: 100%;
         max-width: 100%;
         overflow: hidden;
@@ -34,6 +34,41 @@
       #concept span, #process span, #process_2 span, #design span, #design_2 span, #design_3 span{
         display: inline-block;
         position: absolute;
+      }
+
+      #concept span{
+        padding: 10% 22% 0% 22%;
+        font-size: 25px;
+      }
+
+      #process span{
+        padding: 35% 10% 8% 57%;
+        font-size: 22px;
+      }
+
+      #process_2 span{
+        padding: 5% 45% 10% 10%;
+        font-size: 22px;
+      }
+
+      #design span{
+        padding: 20% 15% 15% 55%;
+        font-size: 22px;
+      }
+
+      #design_2 span{
+        padding: 10% 45% 55% 10%;
+        font-size: 22px;
+      }
+
+      #design_3 span{
+        padding: 29% 55% 5% 5%;
+        font-size: 22px;
+      }
+
+      video {
+        width: 100%    !important;
+        height: auto   !important;
       }
     </style>
 </head>
@@ -69,12 +104,12 @@
 </nav>
 
 
-
-
-
 <div class="main">
-  <div id="video">
-    <iframe width="1084" height="610" src="https://www.youtube.com/embed/vLF0hOl44qc?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <div>
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the <code>video</code> element.
+    </video>
   </div>
 
   <div id="concept">
