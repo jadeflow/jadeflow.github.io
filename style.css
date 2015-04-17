@@ -24,6 +24,11 @@ div span{
   padding-bottom: 56.25%; /* 16:9 */
 }
 
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
 #video iframe{
   position: absolute;
   top: 0;
