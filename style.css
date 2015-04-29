@@ -1,5 +1,5 @@
 body{
-  background-color: #000;
+  background-color: #000000;
 }
 
 div.main{
@@ -17,6 +17,16 @@ div span{
   display: block;
 }
 
+#menu{
+  position: fixed !important;
+  width: 100%;
+  z-index: 10000;
+  margin-left: 0px;
+  margin-top: -30px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 #video{
   height: 0;
   position: relative;
@@ -26,56 +36,141 @@ div span{
 
 #video iframe{
   position: absolute;
-  top: 0;
+  top: 75px;
   left: 0;
   width: 100%;
   height: 100%;
 }
 
-#concept{
-  background: #ADD588 url(img/1.jpg) no-repeat center center fixed;
+#concept,
+#concept_1,
+#concept_2,
+#concept_3,
+#concept_4,
+#concept_5,
+#concept_6,
+#design,
+#design_1,
+#design_2,
+#experiment,
+#experiment_1,
+#experiment_3,
+#experiment_4,
+#experiment_5,
+#experiment_6,
+#experiment_7,
+#experiment_8 {
   background-size: 100% auto;
   min-height: 1100px;
   position: relative;
 }
 
-#concept #icon{
-  width: 105%;
-  height: 105%;
-  margin-left: -3%;
-  margin-bottom: 3%;
-  display: inline;
-  text-align: center;
+#concept{
+  background: #ADD588 url(img/1.jpg) no-repeat center center fixed;
 }
 
-#process{
-  background: #EEDDD5 url(img/2.jpg) no-repeat center center fixed;
-  background-size: 100% auto;
-  min-height: 1100px;
+#concept_1{
+  background: #ADD588 url(img/2.jpg) no-repeat center center fixed;
 }
 
-#process_2{
-  background: #ECCC8E url(img/3.jpg) no-repeat center center fixed;
-  background-size: 100% auto;
-  min-height: 1100px;
+#concept_2{
+  background: #ADD588 url(img/3.jpg) no-repeat center center fixed;
+}
+
+#concept_3{
+  background: #ADD588 url(img/4.jpg) no-repeat center center fixed;
+}
+
+#concept_4{
+  background: #ADD588 url(img/5.jpg) no-repeat center center fixed;
+}
+
+#concept_5{
+  background: #ADD588 url(img/6.jpg) no-repeat center center fixed;
+}
+
+#concept_6{
+  background: #ADD588 url(img/7.jpg) no-repeat center center fixed;
 }
 
 #design{
-  background: #181510 url(img/4.jpg) no-repeat center center fixed;
-  background-size: 100% auto;
-  min-height: 1100px;
+  background: #181510 url(img/8.jpg) no-repeat center center fixed;
+}
+
+#design_1{
+  background: #181510 url(img/9.jpg) no-repeat center center fixed;
 }
 
 #design_2{
-  background: #181510 url(img/5.jpg) no-repeat center center fixed;
-  background-size: 100% auto;
-  min-height: 1100px;
+  background: #6E523C url(img/10.jpg) no-repeat center center fixed;
 }
 
-#design_3{
-  background: #6E523C url(img/6.jpg) no-repeat center center fixed;
+#experiment{
+  background: #ADD588 url(img/11.jpg) no-repeat center center fixed;
+}
+
+#experiment_1{
+  background: #ADD588 url(img/12.jpg) no-repeat center center fixed;
+}
+
+#experiment_2{
+  background: #000000 url(img/13.jpg) no-repeat center center fixed;
   background-size: 100% auto;
-  min-height: 1100px;
+  min-height: 900px;
+  position: relative;
+}
+
+#experiment_3{
+  background: #ADD588 url(img/14.jpg) no-repeat center center fixed;
+}
+
+#experiment_4{
+  background: #ADD588 url(img/15.jpg) no-repeat center center fixed;
+}
+
+#experiment_5{
+  background: #ADD588 url(img/16.jpg) no-repeat center center fixed;
+}
+
+#experiment_6{
+  background: #ADD588 url(img/17.jpg) no-repeat center center fixed;
+}
+
+#experiment_7{
+  background: #ADD588 url(img/18.jpg) no-repeat center center fixed;
+}
+
+#experiment_8{
+  background: #ADD588 url(img/19.jpg) no-repeat center center fixed;
+}
+
+#contact{
+  background-size: 100% auto;
+  min-height: 900px;
+  background: #000000;
+  overflow: hidden;
+}
+
+#contact-content{
+  padding-left: 40%;
+  margin-top: 15%;
+}
+
+#contact-container{
+  display: inline-block;
+}
+
+#contact .info-img{
+  display: inline;
+}
+
+#contact .info{
+  display: inline-block;
+  padding-left: 2%;
+}
+
+#contact img{
+  width: 30%;
 }
 
 #concept span{
@@ -83,29 +178,94 @@ div span{
   font-size: 25px;
 }
 
-#process span{
-  padding: 31% 10% 8% 57%;
-  font-size: 22px;
+#concept_1 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
 }
 
-#process_2 span{
-  padding: 20% 45% 10% 10%;
-  font-size: 22px;
+#concept_2 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
+}
+
+#concept_3 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
+}
+
+#concept_4 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
+}
+
+#concept_5 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
+}
+
+#concept_6 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
 }
 
 #design span{
-  padding: 15% 15% 15% 55%;
-  font-size: 22px;
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
+}
+
+#design_1 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
 }
 
 #design_2 span{
-  padding: 25% 45% 55% 10%;
-  font-size: 22px;
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
 }
 
-#design_3 span{
-  padding: 60% 55% 5% 5%;
-  font-size: 22px;
+#experiment span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
+}
+
+#experiment_1 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
+}
+
+#experiment_2 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
+}
+
+#experiment_3 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
+}
+
+#experiment_4 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
+}
+
+#experiment_5 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
+}
+
+#experiment_6 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
+}
+
+#experiment_7 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
+}
+
+#experiment_8 span{
+  padding: 10% 22% 0% 22%;
+  font-size: 25px;
 }
 
 .intro-title{
@@ -241,11 +401,24 @@ div.main .mobile-img {
     }
 
     #concept,
-    #process,
-    #process_2,
+    #concept_1,
+    #concept_2,
+    #concept_3,
+    #concept_4,
+    #concept_5,
+    #concept_6,
     #design,
+    #design_1,
     #design_2,
-    #design_3{
+    #experiment,
+    #experiment_1,
+    #experiment_2,
+    #experiment_3,
+    #experiment_4,
+    #experiment_5,
+    #experiment_6,
+    #experiment_7,
+    #experiment_8{
       background-image: none;
       position: relative;
       min-height: 600px;
