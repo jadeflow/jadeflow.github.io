@@ -29,7 +29,7 @@ div span{
 
 #video{
   height: 0;
-  position: relative;
+  /*position: relative;*/
   text-align: center;
   padding-bottom: 56.25%; /* 16:9 */
 }
@@ -64,6 +64,27 @@ div span{
   min-height: 1100px;
   position: relative;
   overflow: hidden;
+}
+
+#concept span,
+#concept_1 span,
+#concept_2 span,
+#concept_3 span,
+#concept_4 span,
+#concept_5 span,
+#concept_6 span,
+#design span,
+#design_1 span,
+#design_2 span,
+#experiment span,
+#experiment_1 span,
+#experiment_3 span,
+#experiment_4 span,
+#experiment_5 span,
+#experiment_6 span,
+#experiment_7 span,
+#experiment_8 span {
+  text-align: left;
 }
 
 #concept{
@@ -154,7 +175,7 @@ div span{
 
 #contact-content{
   padding-left: 40%;
-  margin-top: 15%;
+  margin-top: 8%;
 }
 
 #contact-container{
@@ -171,7 +192,12 @@ div span{
 }
 
 #contact img{
-  width: 30%;
+  width: 25%;
+}
+
+#contact a{
+  text-decoration: none;
+  color: #ccc;
 }
 
 #concept span{
@@ -263,7 +289,7 @@ div span{
 .info-name{
   font-weight: 500;
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 1em;
 }
 
 .intro-title{
