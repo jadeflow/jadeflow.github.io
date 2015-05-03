@@ -251,90 +251,88 @@ div span{
 }
 
 #concept span{
-  padding: 30% 8% 10% 61%;
-  font-size: 20px;
-  width: 400px;
+  padding: 30% 10% 0% 60%;
+  font-size: 18px;
 }
 
 #concept_1 span{
   padding: 30% 31% 0% 31%;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
-  width: 520px;
 }
 
 #concept_2 span{
   padding: 40% 8% 0% 67%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #concept_4 span{
-  padding: 48% 25% 0% 55%;
-  font-size: 20px;
+  padding: 48% 25% 0% 48%;
+  font-size: 18px;
 }
 
 #concept_5 span{
   padding: 30% 10% 0% 60%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #concept_6 span{
   padding: 50% 0% 0% 5%;
   width: 32%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #design span{
   padding: 20% 22% 0% 55%;
-  font-size: 20px;
+  font-size: 18px;
   width: 29%;
 }
 
 #design_1 span{
   padding: 15% 22% 0% 15%;
-  font-size: 20px;
+  font-size: 18px;
   width: 35%;
 }
 
 #design_2 span{
   padding: 40% 22% 0% 10%;
-  font-size: 20px;
+  font-size: 18px;
   width: 43%;
 }
 
 #experiment span{
   padding: 30% 0% 0% 31%;
-  font-size: 20px;
+  font-size: 18px;
   width: 43%;
 }
 
 #experiment_1 span{
   padding: 10% 22% 0% 11.5%;
-  font-size: 20px;
+  font-size: 18px;
   width: 34%;
 }
 
 #experiment_2 span{
   padding: 22% 22% 0% 53%;
-  font-size: 20px;
+  font-size: 18px;
   width: 25%;
 }
 
 #experiment_3 span{
   padding: 30% 22% 0% 8%;
-  font-size: 20px;
+  font-size: 18px;
   width: 30%;
 }
 
 #experiment_7 span{
   padding: 20% 22% 0% 10%;
-  font-size: 20px;
+  font-size: 18px;
   width: 35%;
 }
 
 #experiment_8 span{
   padding: 10% 22% 0% 10%;
-  font-size: 20px;
+  font-size: 18px;
   width: 31%;
 }
 
@@ -519,7 +517,7 @@ div.main .mobile-img {
     }
 
     h2 .intro-title{
-      font-size: 20px;
+      font-size: 19px;
     }
 
 }
