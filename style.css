@@ -485,6 +485,10 @@ div.main .mobile-img {
       overflow: hidden;
     }
 
+    #video{
+      position: relative;
+    }
+
     #concept span,
     #concept_1 span,
     #concept_2 span,
