@@ -32,6 +32,7 @@ div span{
   /*position: relative;*/
   text-align: center;
   padding-bottom: 56.25%; /* 16:9 */
+  /*min-height: 1100px;*/
 }
 
 #video iframe{
@@ -40,30 +41,6 @@ div span{
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-#concept,
-#concept_1,
-#concept_2,
-#concept_3,
-#concept_4,
-#concept_5,
-#concept_6,
-#design,
-#design_1,
-#design_2,
-#experiment,
-#experiment_1,
-#experiment_3,
-#experiment_4,
-#experiment_5,
-#experiment_6,
-#experiment_7,
-#experiment_8 {
-  background-size: 100% auto;
-  min-height: 1100px;
-  position: relative;
-  overflow: hidden;
 }
 
 #concept span,
@@ -89,50 +66,98 @@ div span{
 
 #concept{
   background: #ADD588 url(img/1.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #concept_1{
   background: #ADD588 url(img/2.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #concept_2{
   background: #ADD588 url(img/3.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #concept_3{
   background: #ADD588 url(img/4.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #concept_4{
   background: #ADD588 url(img/5.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #concept_5{
   background: #ADD588 url(img/6.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #concept_6{
   background: #ADD588 url(img/7.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #design{
   background: #181510 url(img/8.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #design_1{
   background: #181510 url(img/9.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #design_2{
   background: #6E523C url(img/10.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #experiment{
   background: #ADD588 url(img/11.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #experiment_1{
   background: #ADD588 url(img/12.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #experiment_2{
@@ -140,30 +165,55 @@ div span{
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
+  overflow: hidden;
 }
 
 #experiment_3{
   background: #ADD588 url(img/14.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #experiment_4{
   background: #ADD588 url(img/15.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #experiment_5{
   background: #ADD588 url(img/16.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #experiment_6{
   background: #ADD588 url(img/17.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #experiment_7{
   background: #ADD588 url(img/18.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #experiment_8{
   background: #ADD588 url(img/19.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden;
 }
 
 #contact{
@@ -340,7 +390,7 @@ div span{
     position: absolute;
     top: 3em;
     right: 2em;
-    display: none;
+    display: \none;
 }
 
 .custom-toggle .bar {
