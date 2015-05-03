@@ -28,11 +28,12 @@ div span{
 }
 
 #video{
-  height: 0;
+  /*height: 0;*/
   /*position: relative;*/
   text-align: center;
-  padding-bottom: 56.25%; /* 16:9 */
-  /*min-height: 1100px;*/
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  /*min-height: 700px;*/
 }
 
 #video iframe{
@@ -218,7 +219,7 @@ div span{
 
 #contact{
   background-size: 100% auto;
-  min-height: 900px;
+  min-height: 700px;
   background: #000000;
   overflow: hidden;
 }
