@@ -65,7 +65,7 @@ div span{
 }
 
 #concept{
-  background: #ADD588 url(img/1.jpg) no-repeat center center fixed;
+  background: #000000 url(img/1.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -73,7 +73,7 @@ div span{
 }
 
 #concept_1{
-  background: #ADD588 url(img/2.jpg) no-repeat center center fixed;
+  background: #000000 url(img/2.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -81,7 +81,7 @@ div span{
 }
 
 #concept_2{
-  background: #ADD588 url(img/3.jpg) no-repeat center center fixed;
+  background: #000000 url(img/3.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -89,7 +89,7 @@ div span{
 }
 
 #concept_3{
-  background: #ADD588 url(img/4.jpg) no-repeat center center fixed;
+  background: #000000 url(img/4.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -97,7 +97,7 @@ div span{
 }
 
 #concept_4{
-  background: #ADD588 url(img/5.jpg) no-repeat center center fixed;
+  background: #000000 url(img/5.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -105,7 +105,7 @@ div span{
 }
 
 #concept_5{
-  background: #ADD588 url(img/6.jpg) no-repeat center center fixed;
+  background: #000000 url(img/6.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -113,7 +113,7 @@ div span{
 }
 
 #concept_6{
-  background: #ADD588 url(img/7.jpg) no-repeat center center fixed;
+  background: #000000 url(img/7.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -121,7 +121,7 @@ div span{
 }
 
 #design{
-  background: #181510 url(img/8.jpg) no-repeat center center fixed;
+  background: #000000 url(img/8.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -129,7 +129,7 @@ div span{
 }
 
 #design_1{
-  background: #181510 url(img/9.jpg) no-repeat center center fixed;
+  background: #000000 url(img/9.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -137,7 +137,7 @@ div span{
 }
 
 #design_2{
-  background: #6E523C url(img/10.jpg) no-repeat center center fixed;
+  background: #000000 url(img/10.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -145,7 +145,7 @@ div span{
 }
 
 #experiment{
-  background: #ADD588 url(img/11.jpg) no-repeat center center fixed;
+  background: #000000 url(img/11.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -153,7 +153,7 @@ div span{
 }
 
 #experiment_1{
-  background: #ADD588 url(img/12.jpg) no-repeat center center fixed;
+  background: #000000 url(img/12.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -169,7 +169,7 @@ div span{
 }
 
 #experiment_3{
-  background: #ADD588 url(img/14.jpg) no-repeat center center fixed;
+  background: #000000 url(img/14.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -177,7 +177,7 @@ div span{
 }
 
 #experiment_4{
-  background: #ADD588 url(img/15.jpg) no-repeat center center fixed;
+  background: #000000 url(img/15.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -185,7 +185,7 @@ div span{
 }
 
 #experiment_5{
-  background: #ADD588 url(img/16.jpg) no-repeat center center fixed;
+  background: #000000 url(img/16.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -193,7 +193,7 @@ div span{
 }
 
 #experiment_6{
-  background: #ADD588 url(img/17.jpg) no-repeat center center fixed;
+  background: #000000 url(img/17.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -201,7 +201,7 @@ div span{
 }
 
 #experiment_7{
-  background: #ADD588 url(img/18.jpg) no-repeat center center fixed;
+  background: #000000 url(img/18.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -209,7 +209,7 @@ div span{
 }
 
 #experiment_8{
-  background: #ADD588 url(img/19.jpg) no-repeat center center fixed;
+  background: #000000 url(img/19.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   min-height: 900px;
   position: relative;
@@ -258,7 +258,7 @@ div span{
 }
 
 #concept span{
-  padding: 30% 10% 0% 60%;
+  padding: 35% 10% 0% 60%;
   font-size: 18px;
 }
 
