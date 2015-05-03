@@ -241,13 +241,20 @@ div span{
   padding-left: 2%;
 }
 
+#contact .info-name{
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}
+
 #contact img{
   width: 25%;
 }
 
 #contact a{
   text-decoration: none;
-  color: #ccc;
+  color: #fff;
 }
 
 #concept span{
@@ -335,12 +342,6 @@ div span{
   padding: 25% 32.5% 0% 32.5%;
   font-size: 18px;
   width: 33%;
-}
-
-.info-name{
-  font-weight: 500;
-  margin-bottom: 0;
-  padding-bottom: 1em;
 }
 
 .intro-title{
