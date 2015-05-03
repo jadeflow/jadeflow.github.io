@@ -400,29 +400,23 @@ div.main .mobile-img {
 
     div.main .mobile-img {
       display: block;
-      min-height: 600px;
+      height: 100%;
       overflow: hidden;
       position: absolute;
     }
 
-    #concept img{
-      left: -10%;
+    #video{
+      height: 0;
+      /*position: relative;*/
+      text-align: center;
+      padding-bottom: 56.25%; /* 16:9 */
     }
 
-    #process_2 img{
-      right: -40%;
-    }
-
-    #design img{
-      left: -30%;
-    }
-
-    #design_2 img{
-      right: -30%;
-    }
-
-    #design_3 img{
-      right: -10%;
+    #video iframe{
+      position: absolute;
+      top: 75px;
+      width: 100%;
+      height: auto;
     }
 
     #concept,
@@ -453,14 +447,41 @@ div.main .mobile-img {
       overflow: hidden;
     }
 
-    #concept span, #process span, #process_2 span, #design span, #design_2 span, #design_3 span{
+    #concept span,
+    #concept_1 span,
+    #concept_2 span,
+    #concept_3 span,
+    #concept_4 span,
+    #concept_5 span,
+    #concept_6 span,
+    #design span,
+    #design_1 span,
+    #design_2 span,
+    #experiment span,
+    #experiment_1 span,
+    #experiment_2 span,
+    #experiment_3 span,
+    #experiment_4 span,
+    #experiment_5 span,
+    #experiment_6 span,
+    #experiment_7 span,
+    #experiment_8 span{
+      width: 60%;
       padding: 30% 10%;
       font-size: 18px;
-      position: absolute;
+      position: relative;
+    }
+
+    #contact{
+      min-height: 400px;
+    }
+
+    #contact-content{
+      padding-left: 10%;
     }
 
     h2 .intro-title{
-      font-size: 22px;
+      font-size: 20px;
     }
 
 }
